@@ -14,7 +14,7 @@
   "bugs": "https://github.com/e-ther-inc/beta.e-ther-inc.com/issues",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/open-sauced/open-sauced.git"
+    "url": "git+ssh://git@github.com/e-ther-inc/beta.e-ther-inc.com.git"
   },
   "engines": {
     "node": ">=16",
