@@ -1,6 +1,7 @@
 # @e-ther-inc/beta.e-ther-inc.com
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Release](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/release.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/release.yml)
+ [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Overview
 
@@ -8,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Requirements
 
-In order to run the project from a container we need `node>=15`, `npm>=7` and `docker>=20` installed on our development machines.
+In order to run the project from a container we need `node>=16`, `npm>=7` and `docker>=20` installed on our development machines.
 
 ## Folder structure
 

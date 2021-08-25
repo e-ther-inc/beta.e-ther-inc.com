@@ -27,8 +27,11 @@
     "build": "npm run next -- build",
     "export": "npm run next -- export",
     "lint": "npm run next -- lint",
+    "format": "npm run lint -- --fix",
     "push": "cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install",
+    "pre-commit": "next lint"
   },
   "dependencies": {
     "@carbon/react": "^0.2.0",
@@ -45,6 +48,11 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "semantic-release": "^17.4.6"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint"
   }
 }
