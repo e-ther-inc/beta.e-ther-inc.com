@@ -1,0 +1,6 @@
+@use '@carbon/styles/scss/theme';
+@use 'carbon-components/scss/globals/scss/styles.scss';
+
+body {
+  background: theme.$background;
+}
