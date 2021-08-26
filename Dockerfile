@@ -2,6 +2,26 @@ FROM node:16-alpine as development
 
 WORKDIR /app
 
+RUN \
+  apk update &&\
+  apk add --update\
+    autoconf\
+    automake\
+    file\
+    nasm\
+    musl-dev\
+    gcc\
+    curl\
+    git\
+    make\
+    libtool\
+    libpng\
+    libpng-dev\
+    libjpeg-turbo\
+    libjpeg-turbo-dev\
+    zlib\
+    zlib-dev
+
 COPY package.json ./
 COPY npm-shrinkwrap.json ./
 COPY .npmrc ./

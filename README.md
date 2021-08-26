@@ -1,6 +1,9 @@
 # @e-ther-inc/beta.e-ther-inc.com
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Release](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/release.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/release.yml)
+ [![Compliance](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/compliance.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/compliance.yml)
+ [![Development](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/development.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/development.yml)
+ [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Overview
 
@@ -8,7 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Requirements
 
-In order to run the project from a container we need `node>=15`, `npm>=7` and `docker>=20` installed on our development machines.
+In order to run the project from a container we need `node>=16`, `npm>=7` and `docker>=20` installed on our development machines.
 
 ## Folder structure
 
@@ -28,7 +31,6 @@ A quick look at the top-level files and directories you'll see in a Next.js proj
 │  ├── .eslintrc.js
 │  ├── .gitattributes
 │  ├── .gitignore
-│  ├── .lintstagedrc.js
 │  ├── .npmrc
 │  ├── Dockerfile
 │  ├── next.config.js
