@@ -1,6 +1,8 @@
 # @e-ther-inc/beta.e-ther-inc.com
 
 [![Release](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/release.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/release.yml)
+ [![Compliance](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/compliance.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/compliance.yml)
+ [![Development](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/development.yml/badge.svg)](https://github.com/e-ther-inc/beta.e-ther-inc.com/actions/workflows/development.yml)
  [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Overview
