@@ -29,7 +29,6 @@ A quick look at the top-level files and directories you'll see in a Next.js proj
 │  ├── .eslintrc.js
 │  ├── .gitattributes
 │  ├── .gitignore
-│  ├── .lintstagedrc.js
 │  ├── .npmrc
 │  ├── Dockerfile
 │  ├── next.config.js
