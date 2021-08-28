@@ -17,7 +17,7 @@
     "url": "git+ssh://git@github.com/e-ther-inc/beta.e-ther-inc.com.git"
   },
   "engines": {
-    "node": ">=16",
+    "node": ">=14",
     "npm": ">=7"
   },
   "scripts": {
@@ -57,7 +57,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "img-loader": "^4.0.0",
-    "semantic-release": "^17.4.6",
+    "semantic-release": "^17.4.7",
     "url-loader": "^4.1.1"
   }
 }
