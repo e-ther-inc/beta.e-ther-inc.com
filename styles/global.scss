@@ -1,6 +1,18 @@
-@use '@carbon/styles/scss/theme';
-@use 'carbon-components/scss/globals/scss/styles.scss';
+//@use '~carbon-components/scss/globals/scss/layout';
+@use '~carbon-components/scss/globals/scss/styles';
+@use '~@carbon/react/scss/reset';
+@use '~@carbon/react/scss/themes';
+@use '~@carbon/react/scss/theme' as * with (
+  $theme: themes.$g90,
+);
+@use '~@carbon/react/scss/components/link';
+//@use '~@carbon/react/scss/components/code-snippet';
+
+:root {
+  // Emit CSS Custom Properties for the current theme
+  @include theme();
+}
 
 body {
-  background: theme.$background;
+  background: $background;
 }

@@ -1,0 +1,7 @@
+@use '~@carbon/styles/scss/breakpoint' as *;
+
+.column {
+  @include breakpoint-down('lg') {
+    margin-bottom: var(--space);
+  }
+}
